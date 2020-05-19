@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>module2 solution</title>
+    <title>module 3 solution</title>
     <style>
 *{
 box-sizing: border-box;
@@ -24,6 +24,9 @@ background-color: rgba(197, 188, 188, 0.897);
 #fruit{
    float: left;
    width: 48%;
+   
+border: 3px solid gray;
+
 }
 #computer{
     float: right;
@@ -36,7 +39,7 @@ background-color: rgba(197, 188, 188, 0.897);
 
 }
 #glass{
-    float: right: ;;
+    float: right ;
    width: 100%;
 
 }
@@ -47,11 +50,23 @@ h4{
     text-align: center;
     font-size: 30px;
 }
+header{
+    text-align: center;
+    font-size: 24px;
+}
 
     </style>
 </head>
 <body>
     <h4>our menu</h4>
+    <header>
+         <br><select name="fruit" id="">
+             <option value="fruit">fruit</option>
+             <option value="computer">computer</option>
+           <option value="stationary">stationary</option>
+             <option value="glass">glass</option>
+         </select>
+      </header>
     <div class="container">
 <div id="fruit" class="item" >
     <h2>fruit</h2>
@@ -73,5 +88,7 @@ h4{
 </div>
 
 </div>
+
+
 </body>
 </html>
